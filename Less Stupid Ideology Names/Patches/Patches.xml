@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- Festival Names -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RulePackDef[defName="NamerFestivalGlobal"]/rulePack</xpath>
+    <value>
+      <rulePack>
+        <rulesStrings>
+          <li>festivalName->[chosenAdjective] [festival]</li>
+          <li>festivalName->[festival] of [chosenIdeoName]</li>
+          
+          <li>festival->festival</li>
+          <li>festival->celebration</li>
+          <li>festival->party</li>
+          <li>festival->advent</li>
+
+          <!-- New Terms -->
+
+          <li>festival->holiday</li>
+          <li>festival->observance</li>
+          <li>festival->declaration</li>
+        </rulesStrings>
+      </rulePack>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RulePackDef[defName="NamerIdeoBuilding"]/rulePack</xpath>
+    <value>
+      <rulePack>
+        <rulesStrings>
+        <li>r_ideoBuildingName(p=1)->[chosenAdjective] [buildingName]</li>
+        </rulesStrings>
+      </rulePack>
+    </value>
+  </Operation>
+
+</Patch>

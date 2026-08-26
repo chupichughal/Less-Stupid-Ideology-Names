@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ <!-- Ritual Names -->
+
+  <RulePackDef>
+    <defName>NamerRitualFuneral</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_ritualName->funeral</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerRitualGladiatorDuel</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_ritualName->gladiator duel</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerRitualMutilation</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_ritualName->scarification</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerRitualSacrifice</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_ritualName->[chosenAdjective] sacrifice</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>

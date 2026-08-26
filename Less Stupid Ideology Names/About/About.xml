@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--The above line is the start of every XML file. Just ignore it-->
+<ModMetaData>
+    <name>Less Stupid Ideology Names</name>
+<description>Generates less ridiculous names for roles, rituals and buildings introduced in the ideology dlc</description>
+    <author>chillllemon</author>
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+    <packageId>chillllemon.lessstupidideologynames</packageId>
+</ModMetaData>
