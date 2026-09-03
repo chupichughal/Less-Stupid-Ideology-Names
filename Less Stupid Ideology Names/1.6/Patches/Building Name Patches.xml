@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/RulePackDef[defName="NamerIdeoBuilding"]/rulePack</xpath>
+        <value>
+          <rulePack>
+            <rulesStrings>
+              <li>r_ideoBuildingName(p=1)->[chosenAdjective] [buildingName]</li>
+            </rulesStrings>
+          </rulePack>
+        </value>
+      </li>
+
+      <!-- Building Names -->
+
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/RulePackDef[defName="NamerAltar"]/rulePack</xpath>
+        <value>
+          <rulePack>
+            <rulesStrings>
+              <li>r_ideoBuildingName->[chosenAdjective] altar</li>
+            </rulesStrings>
+          </rulePack>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/RulePackDef[defName="NamerIdeoSculpture"]/rulePack</xpath>
+        <value>
+          <rulePack>
+            <rulesStrings>
+              <li>r_ideoBuildingName->[chosenAdjective] sculpture</li>
+            </rulesStrings>
+          </rulePack>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/RulePackDef[defName="NamerIdeogram"]/rulePack</xpath>
+        <value>
+          <rulePack>
+            <rulesStrings>
+              <li>r_ideoBuildingName->[chosenAdjective] ideogram</li>
+            </rulesStrings>
+          </rulePack>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/RulePackDef[defName="NamerChristmasTree"]/rulePack</xpath>
+        <value>
+          <rulePack>
+            <rulesStrings>
+              <li>r_ideoBuildingName->christmas tree</li>
+            </rulesStrings>
+          </rulePack>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/RulePackDef[defName="NamerBurnTarget"]/rulePack</xpath>
+        <value>
+          <rulePack>
+            <rulesStrings>
+              <li>r_ideoBuildingName->[chosenAdjective] pyre</li>
+            </rulesStrings>
+          </rulePack>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/RulePackDef[defName="NamerSmoker"]/rulePack</xpath>
+        <value>
+          <rulePack>
+            <rulesStrings>
+              <li>r_ideoBuildingName->bong</li>
+            </rulesStrings>
+          </rulePack>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/RulePackDef[defName="NamerCannibalPlatter"]/rulePack</xpath>
+        <value>
+          <rulePack>
+            <rulesStrings>
+              <li>r_ideoBuildingName->[chosenAdjective] platter</li>
+            </rulesStrings>
+          </rulePack>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>
