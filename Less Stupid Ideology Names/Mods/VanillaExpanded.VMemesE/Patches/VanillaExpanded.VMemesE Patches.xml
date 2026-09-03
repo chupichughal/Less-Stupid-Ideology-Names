@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/RulePackDef[defName="VME_RoleFireKeeper"]/rulePack/rulesStrings</xpath>
+        <value>
+          <rulesStrings>
+            <li>r_roleName->firekeeper</li>
+          </rulesStrings>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/RulePackDef[defName="VME_Mechacker"]/rulePack/rulesStrings</xpath>
+        <value>
+          <rulesStrings>
+            <li>r_roleName->mechhacker</li>
+          </rulesStrings>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/RulePackDef[defName="VME_PartyHost"]/rulePack/rulesStrings</xpath>
+        <value>
+          <rulesStrings>
+            <li>r_roleName->party host</li>
+          </rulesStrings>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/RulePackDef[defName="VME_InsectoidHerder"]/rulePack/rulesStrings</xpath>
+        <value>
+          <rulesStrings>
+            <li>r_roleName->insectoid herder</li>
+          </rulesStrings>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/RulePackDef[defName="VME_Trader"]/rulePack/rulesStrings</xpath>
+        <value>
+          <rulesStrings>
+            <li>r_roleName->trader</li>
+          </rulesStrings>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/RulePackDef[defName="VME_Patissier"]/rulePack/rulesStrings</xpath>
+        <value>
+          <rulesStrings>
+            <li>r_roleName->patissier</li>
+          </rulesStrings>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

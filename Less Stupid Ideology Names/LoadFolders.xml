@@ -1,0 +1,10 @@
+<loadFolders>
+    <v1.6>
+        <li>/</li>
+        <li>1.6</li>
+        <li IfModActive="VanillaExpanded.VMemesE">1.6/Mods/VanillaExpanded.VMemesE</li>
+        <li IfModActive="Sarg.AlphaMemes">1.6/Mods/Sarg.AlphaMemes</li>
+        <li IfModActive="MortStrudel.MortIdeologyEnv">1.6/Mods/MortStrudel.MortIdeologyEnv</li>
+        <li IfModActive="MortStrudel.MortIdeology">1.6/Mods/MortStrudel.MortIdeology</li>
+    </v1.6>
+</loadFolders>
