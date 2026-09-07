@@ -1,0 +1,10 @@
+<Patch>
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/RulePackDef[defName="NamerRoleCleanupSpecialist"]/rulePack/rulesStrings</xpath>
+        <value>
+          <rulesStrings>
+            <li>r_roleName->cleanup specialist</li>
+          </rulesStrings>
+        </value>
+	</Operation>
+</Patch>

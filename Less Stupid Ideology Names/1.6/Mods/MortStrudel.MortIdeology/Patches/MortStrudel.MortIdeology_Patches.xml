@@ -1,0 +1,10 @@
+<Patch>
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/RulePackDef[defName="NamerRoleExecutive"]/rulePack/rulesStrings</xpath>
+        <value>
+          <rulesStrings>
+            <li>r_roleName->executive</li>
+          </rulesStrings>
+        </value> 
+	</Operation>
+</Patch>

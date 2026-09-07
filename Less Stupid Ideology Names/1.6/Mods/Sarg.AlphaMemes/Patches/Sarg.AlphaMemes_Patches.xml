@@ -1,0 +1,10 @@
+<Patch>
+	<Operation Class="PatchOperationReplace">
+        <xpath>/Defs/RulePackDef[defName="AM_BanquetNamer"]/rulePack/rulesStrings</xpath>
+        <value>
+          <rulesStrings>
+            <li>buildingName->banquet</li>
+          </rulesStrings>
+        </value>
+	</Operation>
+</Patch>

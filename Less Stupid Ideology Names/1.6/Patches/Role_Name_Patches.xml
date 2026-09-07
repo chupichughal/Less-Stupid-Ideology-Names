@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+      <!-- Role Names -->
+
+      <!-- Leader Names -->
+
+	<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RulePackDef[defName="LeaderTitleMaker_GlobalStructure"]/rulePack/rulesStrings</xpath>
+    <value>
+      <rulesStrings>
+        <li>r_leaderTitle->[cultureLeaderTitle]</li>
+      </rulesStrings>
+    </value>
+  </Operation>
+
+<Operation Class="PatchOperationAdd">
+  <xpath>/Defs/RulePackDef[defName="LeaderTitleMaker_Astropolitan"]</xpath>
+  <value>
+    <rulePack>
+      <rulesStrings>
+        <li>cultureLeaderTitle->leader</li>
+      </rulesStrings>
+    </rulePack>
+  </value>
+</Operation>
+
+	<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RulePackDef[defName="LeaderTitleMaker_Rustican"]/rulePack/rulesStrings</xpath>
+    <value>
+      <rulesStrings>
+        <li>cultureLeaderTitle->prime councilor</li>
+      </rulesStrings>
+    </value>
+  </Operation>
+
+	<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RulePackDef[defName="LeaderTitleMaker_Corunan"]/rulePack/rulesStrings</xpath>
+    <value>
+      <rulesStrings>
+        <li>cultureLeaderTitle->chief</li>
+      </rulesStrings>
+    </value>
+  </Operation>
+
+	<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RulePackDef[defName="LeaderTitleMaker_Kriminul"]/rulePack/rulesStrings</xpath>
+    <value>
+      <rulesStrings>
+        <li>cultureLeaderTitle->boss</li>
+      </rulesStrings>
+    </value>
+  </Operation>
+
+      <!-- Moralist -->
+	<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RulePackDef[defName="NamerRoleMoralist"]/rulePack/rulesStrings</xpath>
+    <value>
+      <rulesStrings>
+        <li>r_roleName->moral guide</li>
+      </rulesStrings>
+    </value>
+  </Operation>
+
+      <!-- Specialists -->
+	<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RulePackDef[defName="NamerRoleShooter"]/rulePack/rulesStrings</xpath>
+    <value>
+      <rulesStrings>
+        <li>r_roleName->gunslinger</li>
+      </rulesStrings>
+    </value>
+  </Operation>
+
+	<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RulePackDef[defName="NamerRoleBrawler"]/rulePack/rulesStrings</xpath>
+    <value>
+      <rulesStrings>
+        <li>r_roleName->berserker</li>
+      </rulesStrings>
+    </value>
+  </Operation>
+
+	<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RulePackDef[defName="NamerRoleResearcher"]/rulePack/rulesStrings</xpath>
+    <value>
+      <rulesStrings>
+        <li>r_roleName->research specialist</li>
+      </rulesStrings>
+    </value>
+  </Operation>
+
+	<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RulePackDef[defName="NamerRoleSower"]/rulePack/rulesStrings</xpath>
+    <value>
+      <rulesStrings>
+        <li>r_roleName->plants specialist</li>
+      </rulesStrings>
+    </value>
+  </Operation>
+
+	<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RulePackDef[defName="NamerRoleProductionSpecialist"]/rulePack/rulesStrings</xpath>
+    <value>
+      <rulesStrings>
+        <li>r_roleName->production specialist</li>
+      </rulesStrings>
+    </value>
+  </Operation>
+
+	<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RulePackDef[defName="NamerRoleMiner"]/rulePack/rulesStrings</xpath>
+    <value>
+      <rulesStrings>
+        <li>r_roleName->mining specialist</li>
+      </rulesStrings>
+    </value>
+  </Operation>
+
+	<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RulePackDef[defName="NamerRoleAnimalsSpecialist"]/rulePack/rulesStrings</xpath>
+    <value>
+      <rulesStrings>
+        <li>r_roleName->animal specialist</li>
+      </rulesStrings>
+    </value>
+  </Operation>
+
+	<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RulePackDef[defName="NamerRoleMedicalSpecialist"]/rulePack/rulesStrings</xpath>
+    <value>
+      <rulesStrings>
+        <li>r_roleName->medical specialist</li>
+      </rulesStrings>
+    </value>
+  </Operation>
+</Patch>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RulePackDef[defName="NamerFestivalGlobal"]/rulePack/rulesStrings</xpath>
+    <value>
+        <rulesStrings>
+          <li>festivalName->[chosenAdjective] [festival]</li>
+          <li>festivalName->[festival] of [chosenIdeoName]</li>
+
+          <li>festival->festival</li>
+          <li>festival->celebration</li>
+          <li>festival->party</li>
+          <li>festival->advent</li>
+
+          <!-- New Terms -->
+
+          <li>festival->holiday</li>
+          <li>festival->observance</li>
+          <li>festival->declaration</li>
+        </rulesStrings>
+    </value>
+  </Operation>
+
+    <!-- Building Names -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RulePackDef[defName="NamerRitualFuneral"]/rulePack/rulesStrings</xpath>
+    <value>
+        <rulesStrings>
+          <li>r_ritualName->funeral</li>
+        </rulesStrings>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RulePackDef[defName="NamerRitualGladiatorDuel"]/rulePack/rulesStrings</xpath>
+    <value>
+        <rulesStrings>
+          <li>r_ritualName->gladiator duel</li>
+        </rulesStrings>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RulePackDef[defName="NamerRitualMutilation"]/rulePack/rulesStrings</xpath>
+    <value>
+        <rulesStrings>
+          <li>r_ritualName->[chosenAdjective] mutilation</li>
+          <li>r_ritualName->[chosenAdjective] marking</li>
+          <li>r_ritualName->[chosenAdjective] maiming</li>
+          <li>r_ritualName->[chosenAdjective] branding</li>
+          <li>r_ritualName->[chosenAdjective] hazing</li>
+        </rulesStrings>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RulePackDef[defName="NamerRitualSacrifice"]/rulePack/rulesStrings</xpath>
+    <value>
+        <rulesStrings>
+          <li>r_ritualName->[chosenAdjective] sacrifice</li>
+        </rulesStrings>
+    </value>
+  </Operation>
+</Patch>
